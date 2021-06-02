@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlyFans</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="shortcut icon" href="assets/images/apple-touch-icon.png" />
+    <style>
+        .swiper-container {
+            width: 308px;
+            height: 545px;
+            position: absolute;
+            left: 112px;
+            top: 81px;
+        }
+        
+        .swiper-slide {
+            width: 308px;
+            height: 545px;
+        }
+        
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container c-login">
+        <div class="row">
+            <div class="col-md-6 d-none d-md-block">
+                <div class="phone-login">
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="assets/images/cover-login-1.jpeg" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/cover-login-2.png" alt=""></div>
+                            <div class="swiper-slide"><img src="assets/images/cover-login-3.jpeg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center content-form-login">
+                <form id="formLogin">
+                    <div class="form-login">
+                        <img src="assets/images/logo.png" alt="">
+                        <h6>¡Regístrate para ganar dinero e interactuar con tus fans!
+                        </h6>
+                        <div class="form-group mt-4">
+                            <input type="text" class="form-control form-control-lg" placeholder="Correo Electronico">
+                        </div>
+                        <div class="form-group mt-4">
+                            <input type="password" class="form-control form-control-lg" placeholder="Contraseña">
+                            <small><a id="forgot_password" href="#">¿Has olvidado la contraseña?</a></small>
+                        </div>
+                        <div class="form-group mt-4">
+                            <input type="text" id="nombre" class="form-control form-control-lg" style="display:none;" placeholder="Nombre">
+                        </div>
+                        <div class="form-group text-center">
+                            <button id="form_submit" type="submit" class="btn btn-block">INICIAR SESIÓN</button>
+                        </div>
+                        <h3 class="terms_register_option" style="display:none">Al registrarse, acepta nuestros <br> <a href="#">Términos de Servicio</a> y <a href="#">Política de Privacidad</a>, <br> y confirma que tiene al menos<br> 18 años de edad.</h3>
+                        <p class="terms_login_option form-desc">Visite el <a href="">Centro</a> de ayuda para obtener ayuda adicional si no puede iniciar sesión con su cuenta de OnlyFans existente</p>
+                        <h3 class="title_login_option">Don't have an account yet?</h3>
+                        <h3 class="title_register_option" style="display:none;">¿Ya tienes una cuenta?</h3>
+                        <p id="register_option" class="text-center"><a href="#" class="fl-btn">Regístrate en OnlyFans.com</a></p>
+                        <p id="login_option" class="text-center" style="display:none;"><a href="#" class="fl-btn">Iniciar sesión</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-none d-md-block">
+        <div class="row d-flex justify-content-between">
+            <div class="col-md-4">
+                <div class="l-footer-nav">
+                    <div class="l-footer">
+                        <a href="#" class="l-menu-social">©2021 OnlyFans</a>
+                        <a href="#" class="l-menu-social">Help</a>
+                        <a href="#" class="l-menu-social">About</a>
+                        <a href="#" class="l-menu-social">Contact</a>
+                        <a href="#" class="l-menu-social"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="l-menu-social"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <p style="margin-top:13px;"><i class="far fa-globe"></i> Spanish <i class="far fa-chevron-down"></i></p>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="l-footer-nav">
+                    <div class="l-footer">
+                        <a href="#" class="l-menu-social">Blog</a>
+                        <a href="#" class="l-menu-social">Branding</a>
+                        <a href="#" class="l-menu-social">Store</a>
+                        <a href="#" class="l-menu-social">Terms of Service</a>
+                        <a href="#" class="l-menu-social">DMCA</a>
+                        <a href="#" class="l-menu-social">Privacy</a>
+                        <a href="#" class="l-menu-social">How it Works</a>
+                    </div>
+                    <div class="l-footer-second">
+                        <a href="#" class="l-menu-social-second">Referrals</a>
+                        <a href="#" class="l-menu-social-second">USC 2257</a>
+                        <a href="#" class="l-menu-social-second">Acceptable Use Policy</a>
+                        <a href="#" class="l-menu-social-second">Complaints Policy</a>
+                    </div>
+                    <div class="l-footer-second">
+                        <a href="#" class="l-menu-social-second">Standard Contract between Fan and Creator</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid d-block d-md-none">
+        <div class="row">
+            <div class="col-12">
+                <div class="l-footer-nav">
+                    <div class="l-footer">
+                        <a href="#" class="l-menu-social">©2021 OnlyFans</a>
+                        <a href="#" class="l-menu-social">Help</a>
+                        <a href="#" class="l-menu-social">About</a>
+                        <a href="#" class="l-menu-social">Contact</a>
+                        <a href="#" class="l-menu-social"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="l-menu-social"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="l-footer-nav">
+                    <div class="l-footer">
+                        <a href="#" class="l-menu-social">Blog</a>
+                        <a href="#" class="l-menu-social">Branding</a>
+                        <a href="#" class="l-menu-social">Store</a>
+                        <a href="#" class="l-menu-social">Terms of Service</a>
+                        <a href="#" class="l-menu-social">DMCA</a>
+
+                    </div>
+                    <div class="l-footer-second">
+                        <a href="#" class="l-menu-social">Privacy</a>
+                        <a href="#" class="l-menu-social">How it Works</a>
+                        <a href="#" class="l-menu-social-second">Referrals</a>
+                        <a href="#" class="l-menu-social-second">USC 2257</a>
+                    </div>
+                    <div class="l-footer-second">
+                        <a href="#" class="l-menu-social-second">Acceptable Use Policy</a>
+                        <a href="#" class="l-menu-social-second">Complaints Policy</a>
+                    </div>
+                    <div class="l-footer-second">
+                        <a href="#" class="l-menu-social-second">Standard Contract between Fan and Creator</a>
+                    </div>
+                    <p class="text-center mt-3"><i class="far fa-globe"></i> Spanish <i class="far fa-chevron-down"></i></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/notiflix.js"></script>
+
+    </script>
+</body>
+
+</html>
